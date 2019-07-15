@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func Main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Enter text: ")
 	text, _ := reader.ReadString('\n')
